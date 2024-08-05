@@ -9,10 +9,10 @@ def get_range(n, cells, distance, user):
         return "USUARIO DESCONECTADO"
 
 
-N, D, U = map(int, input().split())
-cells = [int(input()) for _ in range(N)]
+n, d, u = map(int, input().split())
+cells = [int(input()) for _ in range(n)]
 
-resultado = get_range(N, cells, D, U)
+resultado = get_range(n, cells, d, u)
 if resultado == "USUARIO DESCONECTADO":
     print(resultado)
 else:
